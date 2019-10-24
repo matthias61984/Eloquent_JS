@@ -1,5 +1,6 @@
 function countBs(word) {
     numberOfBs = 0;
+
     for (i = 0; i <= word.length; i++) {
         if (word.charAt([i]).toUpperCase() === "B") {
             numberOfBs++;
@@ -12,14 +13,10 @@ function countBs(word) {
         console.log('There are ' + numberOfBs + ' b\'s in ' + word);
     }
 };
-countBs("Bumble Bee");
-countBs("Donald Trump");
-countBs("BbbBbbbBBBBBbB");
-
-console.log("------------");
 
 function countChar(word, x) {
     numberOfXs = 0;
+    
     for (i=0; i <= word.length; i++) {
         if (word.charAt([i]).toLowerCase() === x) {
             numberOfXs++;
@@ -32,6 +29,13 @@ function countChar(word, x) {
         console.log('There are ' + numberOfXs + ' ' + x + '\'s in ' + word);
     }
 };
+
+countBs("Bumble Bee");
+countBs("Donald Trump");
+countBs("BbbBbbbBBBBBbB");
+
+console.log("------------");
+
 countChar("Bumble Bee", "m");
 countChar("Donald Trump", "z");
 countChar("BbbBBbbbBBbBbb", "b");
