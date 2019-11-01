@@ -1,3 +1,3 @@
 # Eloquent_JS
 
-A readme. For Eloquest_JS.
+All exercises are run in node and print to the CLI.
